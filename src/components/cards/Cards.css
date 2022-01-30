@@ -1,0 +1,32 @@
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 28%;
+    padding: 0 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px ;
+}
+
+.cardcontent{
+    background: rgb(235, 240, 240);
+    height: 100%;
+}
+
+@media (max-width:720px){
+    .columns{
+        width: 80%;
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .columns{
+        width: 97vw;
+        margin-left: 0;
+    }
+
+}
